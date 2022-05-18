@@ -1,13 +1,8 @@
-# [Google Clone](https://gooogle-sourav.web.app/) #
+import {useState, useEffect} from 'react';
+import API_KEY from "./keys";
 
-## Use the package manager [npm](https://www.npmjs.com/) to install
-```
-npm install react-router-dom
-npm install @material-ui/core
-npm install @material-ui/icons
-```
-## Google Custom Search
-```javascript
+const CONTEXT_KEY = "083f30d3b4f50ada2";
+
 const UseGoogleSearch = (term) => {
 
     const [data, setData] = useState(null);
@@ -20,15 +15,15 @@ const UseGoogleSearch = (term) => {
                     setData(result)
                 })
         }
+
         fetchData().then(res => {
             console.log(res);
         }).catch(error => {
             console.log(error);
         });
-    }, [term]);
+    }, [term])
 
     return {data};
 };
-```
-   
-#### All Credits Go To [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
+
+export default UseGoogleSearch;
