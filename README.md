@@ -1,4 +1,4 @@
-# [Google Clone](https://gooogle-sourav.web.app/) #
+# [Google Clone](https://clone-d5484.web.app/) #
 
 ## Use the package manager [npm](https://www.npmjs.com/) to install
 ```
