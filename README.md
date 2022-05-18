@@ -30,5 +30,4 @@ const UseGoogleSearch = (term) => {
     return {data};
 };
 ```
-   
-#### All Credits Go To [Clever Programmer](https://www.youtube.com/c/CleverProgrammer)
+
